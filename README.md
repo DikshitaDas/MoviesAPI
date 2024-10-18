@@ -42,6 +42,12 @@ npm start
 ```
 The API will be available at `http://localhost:5000`.
 
+## CRUD Images Demo
+
+<img src="https://github.com/DikshitaDas/MoviesAPI/blob/main/CRUD%20images/create%20a%20movie.jpeg" width="800" >
+<img src="https://github.com/DikshitaDas/MoviesAPI/blob/main/CRUD%20images/edit%20a%20movie.jpeg" width="800" >
+<img src="https://github.com/DikshitaDas/MoviesAPI/blob/main/CRUD%20images/delete%20a%20movie.jpeg" width="800" >
+
 ## 📖 API Endpoints
 
 ### 🔍 Fetch All Movies
