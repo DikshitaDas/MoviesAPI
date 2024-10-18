@@ -73,7 +73,7 @@ Check out the full API Documentation for all endpoints and usage examples.
 
 ## 🛠 Technologies Used
 
-| Technology | Logo |
+| Technology | Version |
 |------------|------|
 | **Node.js** | ![Node.js](https://img.shields.io/badge/Node.js-v16.13.0-green.svg) |
 | **Express.js** | ![Express](https://img.shields.io/badge/Express.js-v4.17.1-yellow.svg) |
