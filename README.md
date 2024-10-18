@@ -7,20 +7,13 @@ Welcome to the **MoviesAPI** project! This API provides a collection of movie da
 ![Express](https://img.shields.io/badge/Express.js-v4.17.1-yellow.svg)
 ![MongoDB](https://img.shields.io/badge/MongoDB-v4.4-blue.svg)
 
-## 📝 Table of Contents
-- [🚀 Features](#-features)
-- [📦 Installation](#-installation)
-- [📖 API Endpoints](#-api-endpoints)
-- [🛠 Technologies Used](#-technologies-used)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ## 🚀 Features
 ✨ **RESTful API** for movie data management  
 🎞 **CRUD operations** to Create, Read, Update, and Delete movie records  
 🔍 **Search movies** by title, genre, or year  
 📈 **Sorting and pagination** for efficient data retrieval  
-🔐 **Authentication & Authorization** for secure endpoints  
+🔑 **Uses OpenAI API Key** for advanced functionality  
 
 ## 📦 Installation
 
@@ -40,7 +33,7 @@ Create a `.env` file in the root directory and add the following:
 ```bash
 MONGO_URI=mongodb://localhost:27017/moviesDB
 PORT=5000
-JWT_SECRET=your_jwt_secret
+OPENAI_API_KEY=your_openai_api_key
 ```
 
 ### 4. Run the Server
@@ -71,9 +64,9 @@ PUT /api/movies/:id
 DELETE /api/movies/:id
 ```
 
-### 🔒 User Authentication
+### 🔑 Use OpenAI API for Additional Functionality
 ```http
-POST /api/users/login
+POST /api/openai/functionality
 ```
 
 Check out the full API Documentation for all endpoints and usage examples.
@@ -85,7 +78,7 @@ Check out the full API Documentation for all endpoints and usage examples.
 | **Node.js** | ![Node.js](https://img.shields.io/badge/Node.js-v16.13.0-green.svg) |
 | **Express.js** | ![Express](https://img.shields.io/badge/Express.js-v4.17.1-yellow.svg) |
 | **MongoDB** | ![MongoDB](https://img.shields.io/badge/MongoDB-v4.4-blue.svg) |
-| **JWT** | ![JWT](https://img.shields.io/badge/JWT-JSON%20Web%20Token-red.svg) |
+| **OpenAI API** | ![OpenAI](https://img.shields.io/badge/OpenAI-API-blueviolet.svg) |
 
 ## 🤝 Contributing
 
@@ -100,4 +93,3 @@ Contributions are more than welcome! Please follow these steps:
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. 📃
-
