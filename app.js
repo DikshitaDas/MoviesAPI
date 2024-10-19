@@ -1,5 +1,3 @@
- //mikku  <3
-
 require("express-async-errors"); //must be in start of the code
 
 
