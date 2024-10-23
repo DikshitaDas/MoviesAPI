@@ -62,7 +62,7 @@ POST /api/movies
 
 ### 🛠️ Update a Movie
 ```http
-PUT /api/movies/:id
+PATCH /api/movies/:id
 ```
 
 ### ❌ Delete a Movie
