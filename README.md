@@ -1,6 +1,6 @@
 # 🎬 Movies API
 
-Welcome to the **MoviesAPI** project! This API provides a collection of movie data, including titles, genres, ratings, and more! 📽️ Built with **Node.js**, **Express**, and **MongoDB**. 🍿
+Welcome to the **MoviesAPI** project! This API provides a collection of movie data, including titles, genres, ratings, and more! 📽️ Built with **Node.js**, **Express**, and **MongoDB**. 🍿 
 
 ![Movies API](https://img.shields.io/badge/MoviesAPI-REST%20API-green.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-v16.13.0-green.svg)
