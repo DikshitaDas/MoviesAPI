@@ -1,4 +1,4 @@
-# 🎬 Movies API
+# 🎬 Movies API 
 
 Welcome to the **MoviesAPI** project! This API provides a collection of movie data, including titles, genres, ratings, and more! 📽️ Built with **Node.js**, **Express**, and **MongoDB**. 🍿 
 
